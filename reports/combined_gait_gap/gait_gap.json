@@ -1,0 +1,604 @@
+{
+  "description": "Combined-reward fixed-period gait gaps; five held-out reset seeds per L",
+  "original_window": "step 40 through episode cap, excluding final post-action state",
+  "late_window": "final half of each capped episode (Walker2D 200:400; Ant 100:200)",
+  "threshold": 0.35,
+  "target_tolerance": 0.1,
+  "caveats": [
+    "The 0.35 and 10% thresholds are our diagnostics, not criteria stated by the paper.",
+    "Late-window normalization is refitted in that window, using the original channel floors.",
+    "Late-window lag search extends through half its length, permitting fewer cycles than the original n/3 search.",
+    "Late-window minima are candidate rhythms, not newly confirmed gait-period passes.",
+    "A normalized return error is not a percentage error in period or a training-loss percentage."
+  ],
+  "robots": {
+    "walker2d": [
+      {
+        "L": 20,
+        "target_gait_period": 40,
+        "original_target_error": {
+          "mean": 1.0251866879115603,
+          "min": 0.9946103969121644,
+          "max": 1.0418261509175921
+        },
+        "late_target_error": {
+          "mean": 0.6682765179188349,
+          "min": 0.6117187054801059,
+          "max": 0.7758141586930258
+        },
+        "late_free_minimum_lags": [
+          38,
+          38,
+          38,
+          37,
+          38
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 1.0372141578695233,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6718918929740827,
+            "late_best_target_band_lag": 38,
+            "late_best_unrestricted_local_minimum_lag": 38,
+            "late_best_unrestricted_local_minimum_error": 0.6718918929740827
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 1.0241486184143787,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6478714244394438,
+            "late_best_target_band_lag": 38,
+            "late_best_unrestricted_local_minimum_lag": 38,
+            "late_best_unrestricted_local_minimum_error": 0.6478714244394438
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.9946103969121644,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6340864080075161,
+            "late_best_target_band_lag": 38,
+            "late_best_unrestricted_local_minimum_lag": 38,
+            "late_best_unrestricted_local_minimum_error": 0.6340864080075161
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 1.0418261509175921,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.7758141586930258,
+            "late_best_target_band_lag": 37,
+            "late_best_unrestricted_local_minimum_lag": 37,
+            "late_best_unrestricted_local_minimum_error": 0.7758141586930258
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 1.0281341154441432,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6117187054801059,
+            "late_best_target_band_lag": 38,
+            "late_best_unrestricted_local_minimum_lag": 38,
+            "late_best_unrestricted_local_minimum_error": 0.6117187054801059
+          }
+        ]
+      },
+      {
+        "L": 26,
+        "target_gait_period": 52,
+        "original_target_error": {
+          "mean": 0.8770145240153633,
+          "min": 0.8583644737394104,
+          "max": 0.8960873298682053
+        },
+        "late_target_error": {
+          "mean": 0.5861196246717093,
+          "min": 0.2747532046552879,
+          "max": 0.7237805455103091
+        },
+        "late_free_minimum_lags": [
+          50,
+          53,
+          48,
+          50,
+          49
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.8701585932472214,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.5924218938821131,
+            "late_best_target_band_lag": 50,
+            "late_best_unrestricted_local_minimum_lag": 50,
+            "late_best_unrestricted_local_minimum_error": 0.5924218938821131
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 0.8583644737394104,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.2747532046552879,
+            "late_best_target_band_lag": 53,
+            "late_best_unrestricted_local_minimum_lag": 53,
+            "late_best_unrestricted_local_minimum_error": 0.2747532046552879
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.8915339782521142,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.7237805455103091,
+            "late_best_target_band_lag": 48,
+            "late_best_unrestricted_local_minimum_lag": 48,
+            "late_best_unrestricted_local_minimum_error": 0.7237805455103091
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.8689282449698653,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6746659609398461,
+            "late_best_target_band_lag": 50,
+            "late_best_unrestricted_local_minimum_lag": 50,
+            "late_best_unrestricted_local_minimum_error": 0.6746659609398461
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.8960873298682053,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.6649765183709906,
+            "late_best_target_band_lag": 49,
+            "late_best_unrestricted_local_minimum_lag": 49,
+            "late_best_unrestricted_local_minimum_error": 0.6649765183709906
+          }
+        ]
+      },
+      {
+        "L": 33,
+        "target_gait_period": 66,
+        "original_target_error": {
+          "mean": 0.7344173363121176,
+          "min": 0.7206570099988918,
+          "max": 0.7542643878152501
+        },
+        "late_target_error": {
+          "mean": 0.4756708312333928,
+          "min": 0.42574692652718543,
+          "max": 0.4967682370283503
+        },
+        "late_free_minimum_lags": [
+          68,
+          68,
+          69,
+          68,
+          68
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.7317276043302637,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.48733292255160265,
+            "late_best_target_band_lag": 68,
+            "late_best_unrestricted_local_minimum_lag": 68,
+            "late_best_unrestricted_local_minimum_error": 0.48733292255160265
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 0.7542643878152501,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.42574692652718543,
+            "late_best_target_band_lag": 68,
+            "late_best_unrestricted_local_minimum_lag": 68,
+            "late_best_unrestricted_local_minimum_error": 0.42574692652718543
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.7365432988178594,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4895126307182097,
+            "late_best_target_band_lag": 69,
+            "late_best_unrestricted_local_minimum_lag": 69,
+            "late_best_unrestricted_local_minimum_error": 0.4895126307182097
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.7206570099988918,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4967682370283503,
+            "late_best_target_band_lag": 68,
+            "late_best_unrestricted_local_minimum_lag": 68,
+            "late_best_unrestricted_local_minimum_error": 0.4967682370283503
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.7288943805983229,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4789934393416159,
+            "late_best_target_band_lag": 68,
+            "late_best_unrestricted_local_minimum_lag": 68,
+            "late_best_unrestricted_local_minimum_error": 0.4789934393416159
+          }
+        ]
+      },
+      {
+        "L": 40,
+        "target_gait_period": 80,
+        "original_target_error": {
+          "mean": 0.8700557653391368,
+          "min": 0.8479075503869693,
+          "max": 0.9080305899933208
+        },
+        "late_target_error": {
+          "mean": 0.44279580571395716,
+          "min": 0.3083284551751756,
+          "max": 0.4888008522145053
+        },
+        "late_free_minimum_lags": [
+          79,
+          79,
+          79,
+          79,
+          79
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.8565057304467161,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4888008522145053,
+            "late_best_target_band_lag": 79,
+            "late_best_unrestricted_local_minimum_lag": 79,
+            "late_best_unrestricted_local_minimum_error": 0.4888008522145053
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 0.9080305899933208,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.3083284551751756,
+            "late_best_target_band_lag": 79,
+            "late_best_unrestricted_local_minimum_lag": 79,
+            "late_best_unrestricted_local_minimum_error": 0.3083284551751756
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.8733034023526681,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4653138057252277,
+            "late_best_target_band_lag": 79,
+            "late_best_unrestricted_local_minimum_lag": 79,
+            "late_best_unrestricted_local_minimum_error": 0.4653138057252277
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.8479075503869693,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4852832736164274,
+            "late_best_target_band_lag": 79,
+            "late_best_unrestricted_local_minimum_lag": 79,
+            "late_best_unrestricted_local_minimum_error": 0.4852832736164274
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.8645315535160096,
+            "original_shortest_repeat": null,
+            "late_start_step": 200,
+            "late_target_error": 0.4662526418384498,
+            "late_best_target_band_lag": 79,
+            "late_best_unrestricted_local_minimum_lag": 79,
+            "late_best_unrestricted_local_minimum_error": 0.4662526418384498
+          }
+        ]
+      }
+    ],
+    "ant": [
+      {
+        "L": 10,
+        "target_gait_period": 20,
+        "original_target_error": {
+          "mean": 0.8476252238461782,
+          "min": 0.6028950298106268,
+          "max": 0.9987631787571007
+        },
+        "late_target_error": {
+          "mean": 0.8850483408908725,
+          "min": 0.5881199732269651,
+          "max": 1.0727993831732705
+        },
+        "late_free_minimum_lags": [
+          10,
+          41,
+          23,
+          49,
+          39
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.9987631787571007,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0136426847603937,
+            "late_best_target_band_lag": 20,
+            "late_best_unrestricted_local_minimum_lag": 10,
+            "late_best_unrestricted_local_minimum_error": 0.9647885555068226
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 0.6028950298106268,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.5881199732269651,
+            "late_best_target_band_lag": 21,
+            "late_best_unrestricted_local_minimum_lag": 41,
+            "late_best_unrestricted_local_minimum_error": 0.3809229467875146
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.8912735123934804,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.8700715586518633,
+            "late_best_target_band_lag": 22,
+            "late_best_unrestricted_local_minimum_lag": 23,
+            "late_best_unrestricted_local_minimum_error": 0.8320370753184255
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.9396753734709355,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0727993831732705,
+            "late_best_target_band_lag": 22,
+            "late_best_unrestricted_local_minimum_lag": 49,
+            "late_best_unrestricted_local_minimum_error": 0.821582476703689
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.8055190247987475,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.8806081046418701,
+            "late_best_target_band_lag": 22,
+            "late_best_unrestricted_local_minimum_lag": 39,
+            "late_best_unrestricted_local_minimum_error": 0.7543947241659171
+          }
+        ]
+      },
+      {
+        "L": 13,
+        "target_gait_period": 26,
+        "original_target_error": {
+          "mean": 1.0103562313797863,
+          "min": 0.9325837419530733,
+          "max": 1.0663001152110536
+        },
+        "late_target_error": {
+          "mean": 1.048862530120862,
+          "min": 0.9932463944238612,
+          "max": 1.1104956791481067
+        },
+        "late_free_minimum_lags": [
+          22,
+          44,
+          21,
+          32,
+          31
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.9808253551493825,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0566897771353692,
+            "late_best_target_band_lag": 24,
+            "late_best_unrestricted_local_minimum_lag": 22,
+            "late_best_unrestricted_local_minimum_error": 0.87011517497733
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 1.0505733407713824,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9932463944238612,
+            "late_best_target_band_lag": 28,
+            "late_best_unrestricted_local_minimum_lag": 44,
+            "late_best_unrestricted_local_minimum_error": 0.8972606871181765
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 1.0663001152110536,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.1104956791481067,
+            "late_best_target_band_lag": 28,
+            "late_best_unrestricted_local_minimum_lag": 21,
+            "late_best_unrestricted_local_minimum_error": 0.8844512771871955
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.9325837419530733,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.044451481097167,
+            "late_best_target_band_lag": 24,
+            "late_best_unrestricted_local_minimum_lag": 32,
+            "late_best_unrestricted_local_minimum_error": 0.9141619013487831
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 1.0214986038140395,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0394293187998054,
+            "late_best_target_band_lag": 27,
+            "late_best_unrestricted_local_minimum_lag": 31,
+            "late_best_unrestricted_local_minimum_error": 0.9414678322151449
+          }
+        ]
+      },
+      {
+        "L": 16,
+        "target_gait_period": 32,
+        "original_target_error": {
+          "mean": 0.9992767938865187,
+          "min": 0.9378859501135599,
+          "max": 1.049501473306012
+        },
+        "late_target_error": {
+          "mean": 1.0000274150627726,
+          "min": 0.9219977351865234,
+          "max": 1.049779891393371
+        },
+        "late_free_minimum_lags": [
+          22,
+          43,
+          21,
+          31,
+          10
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.9882746448005922,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9970640769746846,
+            "late_best_target_band_lag": 35,
+            "late_best_unrestricted_local_minimum_lag": 22,
+            "late_best_unrestricted_local_minimum_error": 0.9690625891033836
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 1.0238557805708512,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0466357245447175,
+            "late_best_target_band_lag": 33,
+            "late_best_unrestricted_local_minimum_lag": 43,
+            "late_best_unrestricted_local_minimum_error": 0.4596415764468461
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 1.049501473306012,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.049779891393371,
+            "late_best_target_band_lag": 32,
+            "late_best_unrestricted_local_minimum_lag": 21,
+            "late_best_unrestricted_local_minimum_error": 0.47845059525496764
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.9968661206415782,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9846596472145671,
+            "late_best_target_band_lag": 31,
+            "late_best_unrestricted_local_minimum_lag": 31,
+            "late_best_unrestricted_local_minimum_error": 0.9846596472145671
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.9378859501135599,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9219977351865234,
+            "late_best_target_band_lag": 32,
+            "late_best_unrestricted_local_minimum_lag": 10,
+            "late_best_unrestricted_local_minimum_error": 0.8944487591394139
+          }
+        ]
+      },
+      {
+        "L": 20,
+        "target_gait_period": 40,
+        "original_target_error": {
+          "mean": 0.9500577520952728,
+          "min": 0.8722756174092207,
+          "max": 1.0218353477612665
+        },
+        "late_target_error": {
+          "mean": 0.9845958184157185,
+          "min": 0.9327830163778251,
+          "max": 1.0291319794512803
+        },
+        "late_free_minimum_lags": [
+          41,
+          48,
+          24,
+          22,
+          47
+        ],
+        "rollouts": [
+          {
+            "seed": 2147483648,
+            "original_target_error": 0.986029793371049,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9475854776927781,
+            "late_best_target_band_lag": 41,
+            "late_best_unrestricted_local_minimum_lag": 41,
+            "late_best_unrestricted_local_minimum_error": 0.9475854776927781
+          },
+          {
+            "seed": 2147483649,
+            "original_target_error": 1.0218353477612665,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0291319794512803,
+            "late_best_target_band_lag": 36,
+            "late_best_unrestricted_local_minimum_lag": 48,
+            "late_best_unrestricted_local_minimum_error": 0.6095034124968317
+          },
+          {
+            "seed": 2147483650,
+            "original_target_error": 0.9144318086686817,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0050816562264868,
+            "late_best_target_band_lag": 44,
+            "late_best_unrestricted_local_minimum_lag": 24,
+            "late_best_unrestricted_local_minimum_error": 0.7665351428664433
+          },
+          {
+            "seed": 2147483651,
+            "original_target_error": 0.8722756174092207,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 0.9327830163778251,
+            "late_best_target_band_lag": 38,
+            "late_best_unrestricted_local_minimum_lag": 22,
+            "late_best_unrestricted_local_minimum_error": 0.8172798527518494
+          },
+          {
+            "seed": 2147483652,
+            "original_target_error": 0.9557161932661463,
+            "original_shortest_repeat": null,
+            "late_start_step": 100,
+            "late_target_error": 1.0083969623302218,
+            "late_best_target_band_lag": 41,
+            "late_best_unrestricted_local_minimum_lag": 47,
+            "late_best_unrestricted_local_minimum_error": 1.0061567276801973
+          }
+        ]
+      }
+    ]
+  }
+}

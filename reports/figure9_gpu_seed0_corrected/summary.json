@@ -1,0 +1,2227 @@
+{
+  "config": {
+    "env": "HalfCheetah-v5",
+    "seed": 0,
+    "initial_l": 10,
+    "latent_dim": 3,
+    "adaptive_interval": 2000,
+    "device_type": "cuda",
+    "sac_entropy_update": "log_probability_plus_target_entropy"
+  },
+  "episodes": 320000,
+  "environment_steps": 64000000,
+  "gradient_updates_per_network": 2560000,
+  "elapsed_seconds": 27086.416231600102,
+  "bound_history": [
+    {
+      "episodes": 0,
+      "low": 10,
+      "high": 10
+    },
+    {
+      "episodes": 2000,
+      "evaluated_bounds": [
+        10,
+        10
+      ],
+      "low_score": 0.7794480323791504,
+      "high_score": 0.7846787571907043,
+      "low": 10,
+      "high": 10
+    },
+    {
+      "episodes": 4000,
+      "evaluated_bounds": [
+        10,
+        10
+      ],
+      "low_score": 0.7064584493637085,
+      "high_score": 0.5127128958702087,
+      "low": 10,
+      "high": 10
+    },
+    {
+      "episodes": 6000,
+      "evaluated_bounds": [
+        10,
+        10
+      ],
+      "low_score": 0.9424512386322021,
+      "high_score": 0.9424276351928711,
+      "low": 9,
+      "high": 11
+    },
+    {
+      "episodes": 8000,
+      "evaluated_bounds": [
+        9,
+        11
+      ],
+      "low_score": 0.9060627818107605,
+      "high_score": 0.43377619981765747,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 10000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.7603491544723511,
+      "high_score": 0.37833160161972046,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 12000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.6213642954826355,
+      "high_score": 0.5246529579162598,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 14000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.5832192897796631,
+      "high_score": 0.5519973635673523,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 16000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.577583909034729,
+      "high_score": 0.612173855304718,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 18000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.6165096163749695,
+      "high_score": 0.6552083492279053,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 20000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.6650877594947815,
+      "high_score": 0.7127734422683716,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 22000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7050028443336487,
+      "high_score": 0.7150117754936218,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 24000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7325685620307922,
+      "high_score": 0.7375097870826721,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 26000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7505003213882446,
+      "high_score": 0.7672389149665833,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 28000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7799717783927917,
+      "high_score": 0.79070645570755,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 30000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7815392017364502,
+      "high_score": 0.7775687575340271,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 32000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.7783876061439514,
+      "high_score": 0.7840573787689209,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 34000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.778634786605835,
+      "high_score": 0.813733696937561,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 36000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.797798752784729,
+      "high_score": 0.8244762420654297,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 38000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8274993300437927,
+      "high_score": 0.8578550815582275,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 40000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8295461535453796,
+      "high_score": 0.856834888458252,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 42000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.817958414554596,
+      "high_score": 0.8862955570220947,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 44000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8210834860801697,
+      "high_score": 0.8620641827583313,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 46000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8254547715187073,
+      "high_score": 0.8514583110809326,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 48000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.83513343334198,
+      "high_score": 0.8284564018249512,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 50000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8363838195800781,
+      "high_score": 0.8256673812866211,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 52000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8308321833610535,
+      "high_score": 0.796420693397522,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 54000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8276426196098328,
+      "high_score": 0.8165821433067322,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 56000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8059887886047363,
+      "high_score": 0.7903980612754822,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 58000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8243127465248108,
+      "high_score": 0.8054441213607788,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 60000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8232816457748413,
+      "high_score": 0.8150417804718018,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 62000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.826255202293396,
+      "high_score": 0.8079671263694763,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 64000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8192196488380432,
+      "high_score": 0.809238076210022,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 66000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8142860531806946,
+      "high_score": 0.8403114080429077,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 68000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8226752877235413,
+      "high_score": 0.8415361642837524,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 70000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8139059543609619,
+      "high_score": 0.8404090404510498,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 72000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.819050669670105,
+      "high_score": 0.8395528793334961,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 74000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8072860240936279,
+      "high_score": 0.8339205980300903,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 76000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8142009377479553,
+      "high_score": 0.8564092516899109,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 78000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.803435742855072,
+      "high_score": 0.8539535999298096,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 80000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8065763115882874,
+      "high_score": 0.8656302690505981,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 82000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8181224465370178,
+      "high_score": 0.8689386248588562,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 84000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8090749979019165,
+      "high_score": 0.8728565573692322,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 86000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8215681910514832,
+      "high_score": 0.8647080063819885,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 88000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8179419040679932,
+      "high_score": 0.8556007742881775,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 90000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8130281567573547,
+      "high_score": 0.8654478192329407,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 92000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8180033564567566,
+      "high_score": 0.8873656988143921,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 94000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8290744423866272,
+      "high_score": 0.875274121761322,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 96000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8262090086936951,
+      "high_score": 0.8893645405769348,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 98000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8245547413825989,
+      "high_score": 0.8824571967124939,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 100000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8236178159713745,
+      "high_score": 0.8757964372634888,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 102000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8287800550460815,
+      "high_score": 0.8776093125343323,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 104000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8160554766654968,
+      "high_score": 0.8718028664588928,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 106000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8458640575408936,
+      "high_score": 0.8925821781158447,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 108000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8179910182952881,
+      "high_score": 0.8735204935073853,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 110000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8341977000236511,
+      "high_score": 0.8957962393760681,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 112000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8236413598060608,
+      "high_score": 0.8931445479393005,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 114000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.823509931564331,
+      "high_score": 0.8862377405166626,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 116000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.843897819519043,
+      "high_score": 0.8895162343978882,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 118000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.835394561290741,
+      "high_score": 0.8894683122634888,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 120000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8214215636253357,
+      "high_score": 0.8783606886863708,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 122000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8373301029205322,
+      "high_score": 0.8898228406906128,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 124000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8308466672897339,
+      "high_score": 0.8942812085151672,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 126000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8220934271812439,
+      "high_score": 0.8919106721878052,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 128000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8544131517410278,
+      "high_score": 0.8985725045204163,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 130000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8156609535217285,
+      "high_score": 0.8866519927978516,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 132000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.825488805770874,
+      "high_score": 0.8850822448730469,
+      "low": 8,
+      "high": 10
+    },
+    {
+      "episodes": 134000,
+      "evaluated_bounds": [
+        8,
+        10
+      ],
+      "low_score": 0.8250143527984619,
+      "high_score": 0.9003345966339111,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 136000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.810589611530304,
+      "high_score": 0.8339101672172546,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 138000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8148762583732605,
+      "high_score": 0.8644155859947205,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 140000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8255075812339783,
+      "high_score": 0.8635758757591248,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 142000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8165857791900635,
+      "high_score": 0.8470510840415955,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 144000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8103041052818298,
+      "high_score": 0.8810608386993408,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 146000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8099708557128906,
+      "high_score": 0.8554253578186035,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 148000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8041878938674927,
+      "high_score": 0.8754019737243652,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 150000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8019909858703613,
+      "high_score": 0.8866422772407532,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 152000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8189305663108826,
+      "high_score": 0.8649199604988098,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 154000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8127758502960205,
+      "high_score": 0.894067645072937,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 156000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8213006854057312,
+      "high_score": 0.8931093215942383,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 158000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8078061938285828,
+      "high_score": 0.8880043625831604,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 160000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.800139307975769,
+      "high_score": 0.8845818042755127,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 162000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8158102631568909,
+      "high_score": 0.8846911191940308,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 164000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8090049028396606,
+      "high_score": 0.8907815217971802,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 166000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8091175556182861,
+      "high_score": 0.8920126557350159,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 168000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8121924996376038,
+      "high_score": 0.8752481937408447,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 170000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8154279589653015,
+      "high_score": 0.8982135653495789,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 172000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.799019455909729,
+      "high_score": 0.8827514052391052,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 174000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8052850961685181,
+      "high_score": 0.8973494172096252,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 176000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.7978512048721313,
+      "high_score": 0.8947352766990662,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 178000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8016275763511658,
+      "high_score": 0.898979902267456,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 180000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.799582302570343,
+      "high_score": 0.8921495676040649,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 182000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.7993987798690796,
+      "high_score": 0.8973639011383057,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 184000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8039452433586121,
+      "high_score": 0.8864359259605408,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 186000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.7987167239189148,
+      "high_score": 0.8945556879043579,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 188000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8197694420814514,
+      "high_score": 0.8917116522789001,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 190000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8043577075004578,
+      "high_score": 0.8956605195999146,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 192000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8059070706367493,
+      "high_score": 0.894794225692749,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 194000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8160852193832397,
+      "high_score": 0.8941030502319336,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 196000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8116418719291687,
+      "high_score": 0.8904792666435242,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 198000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8225682973861694,
+      "high_score": 0.8921477198600769,
+      "low": 8,
+      "high": 11
+    },
+    {
+      "episodes": 200000,
+      "evaluated_bounds": [
+        8,
+        11
+      ],
+      "low_score": 0.8046358823776245,
+      "high_score": 0.9008616209030151,
+      "low": 8,
+      "high": 12
+    },
+    {
+      "episodes": 202000,
+      "evaluated_bounds": [
+        8,
+        12
+      ],
+      "low_score": 0.8233402371406555,
+      "high_score": 0.9871499538421631,
+      "low": 8,
+      "high": 13
+    },
+    {
+      "episodes": 204000,
+      "evaluated_bounds": [
+        8,
+        13
+      ],
+      "low_score": 0.8119048476219177,
+      "high_score": 0.9827176928520203,
+      "low": 8,
+      "high": 14
+    },
+    {
+      "episodes": 206000,
+      "evaluated_bounds": [
+        8,
+        14
+      ],
+      "low_score": 0.8185492753982544,
+      "high_score": 0.9803114533424377,
+      "low": 8,
+      "high": 15
+    },
+    {
+      "episodes": 208000,
+      "evaluated_bounds": [
+        8,
+        15
+      ],
+      "low_score": 0.8031761646270752,
+      "high_score": 0.9622817635536194,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 210000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.8232465982437134,
+      "high_score": 0.9537267088890076,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 212000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8061100244522095,
+      "high_score": 0.9514470100402832,
+      "low": 8,
+      "high": 18
+    },
+    {
+      "episodes": 214000,
+      "evaluated_bounds": [
+        8,
+        18
+      ],
+      "low_score": 0.792775571346283,
+      "high_score": 0.30080294609069824,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 216000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.794400691986084,
+      "high_score": 0.3648148477077484,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 218000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.7906067371368408,
+      "high_score": 0.9596402645111084,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 220000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7940822243690491,
+      "high_score": 0.31211212277412415,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 222000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.7944272756576538,
+      "high_score": 0.9602974653244019,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 224000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8034636378288269,
+      "high_score": 0.3502926826477051,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 226000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.8083726763725281,
+      "high_score": 0.9694667458534241,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 228000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7932676076889038,
+      "high_score": 0.3584587275981903,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 230000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.7827407717704773,
+      "high_score": 0.9735491275787354,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 232000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7938979864120483,
+      "high_score": 0.38671743869781494,
+      "low": 8,
+      "high": 16
+    },
+    {
+      "episodes": 234000,
+      "evaluated_bounds": [
+        8,
+        16
+      ],
+      "low_score": 0.7968622446060181,
+      "high_score": 0.9728835821151733,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 236000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7929067611694336,
+      "high_score": 0.4360330402851105,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 238000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7956745624542236,
+      "high_score": 0.49853718280792236,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 240000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8002357482910156,
+      "high_score": 0.6049577593803406,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 242000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8025187849998474,
+      "high_score": 0.676459014415741,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 244000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7970459461212158,
+      "high_score": 0.8336600065231323,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 246000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.7985127568244934,
+      "high_score": 0.8317428231239319,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 248000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.802812397480011,
+      "high_score": 0.8911430239677429,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 250000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8013352155685425,
+      "high_score": 0.8952481150627136,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 252000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8080269694328308,
+      "high_score": 0.8871927857398987,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 254000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8162098526954651,
+      "high_score": 0.8924517035484314,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 256000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8261240124702454,
+      "high_score": 0.8998129367828369,
+      "low": 8,
+      "high": 17
+    },
+    {
+      "episodes": 258000,
+      "evaluated_bounds": [
+        8,
+        17
+      ],
+      "low_score": 0.8338298797607422,
+      "high_score": 0.9014595150947571,
+      "low": 8,
+      "high": 18
+    },
+    {
+      "episodes": 260000,
+      "evaluated_bounds": [
+        8,
+        18
+      ],
+      "low_score": 0.8227907419204712,
+      "high_score": 0.9212544560432434,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 262000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8041233420372009,
+      "high_score": 0.8462907075881958,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 264000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.811276912689209,
+      "high_score": 0.8654749393463135,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 266000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.816759467124939,
+      "high_score": 0.8632329702377319,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 268000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8221574425697327,
+      "high_score": 0.8609865307807922,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 270000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8207303285598755,
+      "high_score": 0.8727697134017944,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 272000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8273212313652039,
+      "high_score": 0.8797608017921448,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 274000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.826883852481842,
+      "high_score": 0.8788634538650513,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 276000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8349744081497192,
+      "high_score": 0.8847871422767639,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 278000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8277072906494141,
+      "high_score": 0.895143449306488,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 280000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.8107562065124512,
+      "high_score": 0.8824117183685303,
+      "low": 8,
+      "high": 19
+    },
+    {
+      "episodes": 282000,
+      "evaluated_bounds": [
+        8,
+        19
+      ],
+      "low_score": 0.821602463722229,
+      "high_score": 0.9018763899803162,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 284000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8055528402328491,
+      "high_score": 0.7024024724960327,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 286000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8058193922042847,
+      "high_score": 0.7140904664993286,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 288000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.7955944538116455,
+      "high_score": 0.7141937613487244,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 290000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8121787905693054,
+      "high_score": 0.7117741703987122,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 292000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8304640650749207,
+      "high_score": 0.7327284216880798,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 294000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8287032842636108,
+      "high_score": 0.7403491735458374,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 296000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8288227915763855,
+      "high_score": 0.7335121035575867,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 298000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8310614228248596,
+      "high_score": 0.7752327919006348,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 300000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8267672657966614,
+      "high_score": 0.7599220275878906,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 302000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8173105716705322,
+      "high_score": 0.7903892993927002,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 304000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.817604660987854,
+      "high_score": 0.7830127477645874,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 306000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8104715347290039,
+      "high_score": 0.7579552531242371,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 308000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.7931680083274841,
+      "high_score": 0.7790310382843018,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 310000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.7997719049453735,
+      "high_score": 0.7783660292625427,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 312000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8114888072013855,
+      "high_score": 0.7731139659881592,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 314000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8313233852386475,
+      "high_score": 0.7618292570114136,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 316000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8358519673347473,
+      "high_score": 0.7581222057342529,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 318000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8430875539779663,
+      "high_score": 0.7283731698989868,
+      "low": 8,
+      "high": 20
+    },
+    {
+      "episodes": 320000,
+      "evaluated_bounds": [
+        8,
+        20
+      ],
+      "low_score": 0.8413100838661194,
+      "high_score": 0.7393426299095154,
+      "low": 8,
+      "high": 20
+    }
+  ],
+  "last_batch": {
+    "encoder_loss": -7.138300895690918,
+    "critic_loss": 0.11552886664867401,
+    "actor_loss": -169.9346160888672,
+    "alpha_loss": -2.514669895172119,
+    "alpha": 0.020378457382321358
+  },
+  "platform": "Windows-10-10.0.22631-SP0",
+  "device": "NVIDIA GeForce RTX 4060 Ti",
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "gymnasium": "1.2.1",
+    "mujoco": "4.0.1",
+    "numpy": "2.2.6"
+  },
+  "metrics": [
+    {
+      "L": 8,
+      "target_steps": 16,
+      "geometry": {
+        "L": 8,
+        "step_distance": {
+          "mean": 1.439701457056624,
+          "std": 0.2094898609621239,
+          "target": 1.560722576129026,
+          "absolute_relative_error": 0.07754172389340583,
+          "mean_absolute_relative_error": 0.08009339411145468
+        },
+        "lag_L_distance": {
+          "mean": 7.9815574670217995,
+          "std": 0.16146467410079743,
+          "target": 8.0,
+          "absolute_relative_error": 0.0023053166222750665,
+          "mean_absolute_relative_error": 0.0024288163984693936
+        },
+        "antipodal_residual": {
+          "mean": 1.231019028438277,
+          "std": 0.5634925105828226,
+          "normalized_mean": 0.15387737855478462
+        }
+      },
+      "eval_mean_velocity": 1.2338409423828125,
+      "eval_spectra": [
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.2860068309448112,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 398.7274768836184,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 50.80761312080638,
+              "relative_magnitude": 0.1274244090673396
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 49.48637024618731,
+              "relative_magnitude": 0.1241107601436545
+            },
+            {
+              "period_steps": 3.571428571428571,
+              "frequency_cycles_per_step": 0.28,
+              "magnitude": 48.41233251070189,
+              "relative_magnitude": 0.12141709643158753
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 41.618894761796795,
+              "relative_magnitude": 0.10437929958347121
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.2814210919831822,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 397.35956986158334,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 50.466564883573035,
+              "relative_magnitude": 0.12700478033321963
+            },
+            {
+              "period_steps": 3.571428571428571,
+              "frequency_cycles_per_step": 0.28,
+              "magnitude": 45.97617911941697,
+              "relative_magnitude": 0.11570422007309994
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 44.935951191025055,
+              "relative_magnitude": 0.11308636962406138
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 43.885275621524606,
+              "relative_magnitude": 0.1104422265124045
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.2847057988876852,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 397.85323366004513,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 46.987522567195775,
+              "relative_magnitude": 0.11810265342054589
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 46.59696904671043,
+              "relative_magnitude": 0.11712100117433324
+            },
+            {
+              "period_steps": 3.571428571428571,
+              "frequency_cycles_per_step": 0.28,
+              "magnitude": 46.1830997895137,
+              "relative_magnitude": 0.11608074506433674
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 40.479876163543295,
+              "relative_magnitude": 0.10174575129413742
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.27765546644837463,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 392.3012261721046,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 51.70840610013075,
+              "relative_magnitude": 0.13180791353796587
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 46.62101683489018,
+              "relative_magnitude": 0.11883984480445467
+            },
+            {
+              "period_steps": 3.571428571428571,
+              "frequency_cycles_per_step": 0.28,
+              "magnitude": 45.541469587436495,
+              "relative_magnitude": 0.11608801234655641
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 41.58156655314711,
+              "relative_magnitude": 0.10599397549398702
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.2889929095695282,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 399.14755076581326,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 51.92971409425971,
+              "relative_magnitude": 0.1301015476472954
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 49.27256587070904,
+              "relative_magnitude": 0.12344449007935439
+            },
+            {
+              "period_steps": 3.571428571428571,
+              "frequency_cycles_per_step": 0.28,
+              "magnitude": 43.22550223188082,
+              "relative_magnitude": 0.10829454458369447
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 42.274727947504594,
+              "relative_magnitude": 0.10591253251183771
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "L": 20,
+      "target_steps": 40,
+      "geometry": {
+        "L": 20,
+        "step_distance": {
+          "mean": 1.7575981272399668,
+          "std": 0.6821541947794081,
+          "target": 1.5691819145568988,
+          "absolute_relative_error": 0.12007289335619982,
+          "mean_absolute_relative_error": 0.17867249520457903
+        },
+        "lag_L_distance": {
+          "mean": 16.007030433170016,
+          "std": 6.515160052119744,
+          "target": 20.0,
+          "absolute_relative_error": 0.1996484783414992,
+          "mean_absolute_relative_error": 0.2000313552452472
+        },
+        "antipodal_residual": {
+          "mean": 6.360667116970375,
+          "std": 6.561582997613245,
+          "normalized_mean": 0.3180333558485188
+        }
+      },
+      "eval_mean_velocity": 1.034468650817871,
+      "eval_spectra": [
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.23238889646689154,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 354.21219802505465,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 65.48070858786791,
+              "relative_magnitude": 0.1848629407822828
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 56.255691946030566,
+              "relative_magnitude": 0.15881918313285023
+            },
+            {
+              "period_steps": 5.405405405405405,
+              "frequency_cycles_per_step": 0.185,
+              "magnitude": 54.51945309689987,
+              "relative_magnitude": 0.15391749183364806
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 44.31849889441211,
+              "relative_magnitude": 0.12511849998818309
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.23091052289944952,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 356.0430332830061,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 67.33479756799943,
+              "relative_magnitude": 0.1891198289912258
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 58.1583269950715,
+              "relative_magnitude": 0.1633463417576366
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 43.27648201788556,
+              "relative_magnitude": 0.12154845895688854
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 43.056502254691345,
+              "relative_magnitude": 0.12093061295898815
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.23298698233428572,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 356.82931125763923,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 63.64549853557411,
+              "relative_magnitude": 0.17836398672311018
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 57.929362613874865,
+              "relative_magnitude": 0.16234474239154778
+            },
+            {
+              "period_steps": 7.142857142857142,
+              "frequency_cycles_per_step": 0.14,
+              "magnitude": 52.25732776620096,
+              "relative_magnitude": 0.14644908957176425
+            },
+            {
+              "period_steps": 5.128205128205128,
+              "frequency_cycles_per_step": 0.195,
+              "magnitude": 50.64234268826762,
+              "relative_magnitude": 0.14192315790925214
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.23225853975877495,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 354.3298688937075,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 71.46216450442716,
+              "relative_magnitude": 0.20168258670246203
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 63.320504205371634,
+              "relative_magnitude": 0.1787049576234473
+            },
+            {
+              "period_steps": 7.142857142857142,
+              "frequency_cycles_per_step": 0.14,
+              "magnitude": 56.21962433094792,
+              "relative_magnitude": 0.15866464914876477
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 45.90062922672053,
+              "relative_magnitude": 0.12954208283380672
+            }
+          ]
+        },
+        {
+          "timesteps": 200,
+          "pca_explained_variance_ratio": 0.23118842464843983,
+          "dominant_period_steps": 6.0606060606060606,
+          "top_peaks": [
+            {
+              "period_steps": 6.0606060606060606,
+              "frequency_cycles_per_step": 0.165,
+              "magnitude": 356.3804525317567,
+              "relative_magnitude": 1.0
+            },
+            {
+              "period_steps": 9.090909090909092,
+              "frequency_cycles_per_step": 0.11,
+              "magnitude": 62.148978349290495,
+              "relative_magnitude": 0.17438941419985
+            },
+            {
+              "period_steps": 18.181818181818183,
+              "frequency_cycles_per_step": 0.055,
+              "magnitude": 53.14809585016731,
+              "relative_magnitude": 0.14913302756253538
+            },
+            {
+              "period_steps": 2.9850746268656714,
+              "frequency_cycles_per_step": 0.335,
+              "magnitude": 51.505250865748515,
+              "relative_magnitude": 0.1445232209001669
+            },
+            {
+              "period_steps": 4.545454545454546,
+              "frequency_cycles_per_step": 0.22,
+              "magnitude": 44.72111234233769,
+              "relative_magnitude": 0.1254869957783463
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 150,
+  "episode_steps": 48,
+  "states": 24,
+  "speeds": [
+    1,
+    2,
+    3
+  ],
+  "elapsed_seconds": 7.312,
+  "rows": [
+    {
+      "experiment": "joint",
+      "seed": 0,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9970212091188616,
+      "half_ratio": 0.9969928518794613,
+      "antipode_error": 0.0018563713172680997,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9988187983326895
+    },
+    {
+      "experiment": "frozen",
+      "seed": 0,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 0.991869918699187,
+      "step_ratio": 0.9989239138844853,
+      "half_ratio": 0.9989230548297474,
+      "antipode_error": 0.000619626994712531,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998902514465995
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 0,
+      "L": 4,
+      "dominant_period": 9,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "9": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6235651783152006,
+      "half_ratio": 0.2232626993366077,
+      "antipode_error": 0.20010562475576585,
+      "closure_error": 0.23862806274101023,
+      "intrinsic_reward": 0.2087474435743162
+    },
+    {
+      "experiment": "joint",
+      "seed": 0,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 1.002716115183354,
+      "half_ratio": 0.7986433880544492,
+      "antipode_error": 0.2595419306671531,
+      "closure_error": 0.4936127172503509,
+      "intrinsic_reward": 0.9992584268066403
+    },
+    {
+      "experiment": "frozen",
+      "seed": 0,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9992710579092559,
+      "half_ratio": 0.9992686473310057,
+      "antipode_error": 0.00033172413224553054,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999555321983813
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 0,
+      "L": 6,
+      "dominant_period": 13,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "13": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.7123979847171892,
+      "half_ratio": 0.13724791577539233,
+      "antipode_error": 0.14794394151642506,
+      "closure_error": 0.18438216613746305,
+      "intrinsic_reward": 0.266512808398811
+    },
+    {
+      "experiment": "joint",
+      "seed": 0,
+      "L": 12,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.9929579987805344,
+      "half_ratio": 0.15022202231232482,
+      "antipode_error": 0.07048369481416637,
+      "closure_error": 0.09378504399036829,
+      "intrinsic_reward": 0.9966814590382581
+    },
+    {
+      "experiment": "frozen",
+      "seed": 0,
+      "L": 12,
+      "dominant_period": 24,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "24": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9994417753007637,
+      "half_ratio": 0.9994486043442667,
+      "antipode_error": 0.0003024732663274082,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9800518709016669
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 0,
+      "L": 12,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6849286017976798,
+      "half_ratio": 0.06991347199509271,
+      "antipode_error": 0.08123272319458166,
+      "closure_error": 0.09061390751204691,
+      "intrinsic_reward": 0.36883901078415665
+    },
+    {
+      "experiment": "joint",
+      "seed": 1,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9946578063700864,
+      "half_ratio": 0.9946206271862037,
+      "antipode_error": 0.0019145201219836496,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9976540009938797
+    },
+    {
+      "experiment": "frozen",
+      "seed": 1,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9989560743227678,
+      "half_ratio": 0.9989543579065913,
+      "antipode_error": 0.00043436145472267767,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.999867110363597
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 1,
+      "L": 4,
+      "dominant_period": 9,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "9": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.49740435061405947,
+      "half_ratio": 0.16299383338554044,
+      "antipode_error": 0.16513549821902718,
+      "closure_error": 0.19034840416631682,
+      "intrinsic_reward": 0.0828259802281791
+    },
+    {
+      "experiment": "joint",
+      "seed": 1,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.9981750006702018,
+      "half_ratio": 0.7942190223372458,
+      "antipode_error": 0.2583977412890793,
+      "closure_error": 0.491113478647531,
+      "intrinsic_reward": 0.9984801575328903
+    },
+    {
+      "experiment": "frozen",
+      "seed": 1,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9992971136543976,
+      "half_ratio": 0.999294878965014,
+      "antipode_error": 0.0002728070003283554,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999309518097046
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 1,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.555812456646735,
+      "half_ratio": 0.14404576870063243,
+      "antipode_error": 0.13898634992609124,
+      "closure_error": 0.15608084599687252,
+      "intrinsic_reward": 0.16697509185494663
+    },
+    {
+      "experiment": "joint",
+      "seed": 1,
+      "L": 12,
+      "dominant_period": 8,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 0.9533333333333334,
+      "step_ratio": 0.9953194355662737,
+      "half_ratio": 0.3390325885117975,
+      "antipode_error": 0.002058274082149962,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9980199259755322
+    },
+    {
+      "experiment": "frozen",
+      "seed": 1,
+      "L": 12,
+      "dominant_period": 24,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "24": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9994776457926817,
+      "half_ratio": 0.9994770681614836,
+      "antipode_error": 0.00014468781600214048,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999354345004955
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 1,
+      "L": 12,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.5361181361374591,
+      "half_ratio": 0.059003831115869654,
+      "antipode_error": 0.0691737572769864,
+      "closure_error": 0.05861640339606051,
+      "intrinsic_reward": 0.21264425140593066
+    },
+    {
+      "experiment": "joint",
+      "seed": 2,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.994856313153135,
+      "half_ratio": 0.9948092458509126,
+      "antipode_error": 0.0042084110824177874,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9946959624320226
+    },
+    {
+      "experiment": "frozen",
+      "seed": 2,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.998651270394459,
+      "half_ratio": 0.9986497821464746,
+      "antipode_error": 0.0004125941999248762,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998922702744366
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 2,
+      "L": 4,
+      "dominant_period": 12,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6879000196774888,
+      "half_ratio": 0.18452365644084354,
+      "antipode_error": 0.26075512970743,
+      "closure_error": 0.18452365644084354,
+      "intrinsic_reward": 0.3421013694708241
+    },
+    {
+      "experiment": "joint",
+      "seed": 2,
+      "L": 6,
+      "dominant_period": 8,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.995024265366491,
+      "half_ratio": 0.3638627546316674,
+      "antipode_error": 0.0038775088824780004,
+      "closure_error": 0.0046207867257016515,
+      "intrinsic_reward": 0.9962043565987496
+    },
+    {
+      "experiment": "frozen",
+      "seed": 2,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9991419078191186,
+      "half_ratio": 0.9991368698367038,
+      "antipode_error": 0.00042000699802362485,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998924959736852
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 2,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.7333189327072623,
+      "half_ratio": 0.16173818932153372,
+      "antipode_error": 0.17250177830329125,
+      "closure_error": 0.1411101890661973,
+      "intrinsic_reward": 0.4444516757625932
+    },
+    {
+      "experiment": "joint",
+      "seed": 2,
+      "L": 12,
+      "dominant_period": 9,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "9": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.9939633901893341,
+      "half_ratio": 0.2803768975547308,
+      "antipode_error": 0.1754029503483864,
+      "closure_error": 0.2803768975547308,
+      "intrinsic_reward": 0.9970331957420212
+    },
+    {
+      "experiment": "frozen",
+      "seed": 2,
+      "L": 12,
+      "dominant_period": 24,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "24": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.999745152339327,
+      "half_ratio": 0.9997420045441996,
+      "antipode_error": 0.0001602947282068941,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999436592803398
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 2,
+      "L": 12,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6857996435197037,
+      "half_ratio": 0.06632084890635584,
+      "antipode_error": 0.08469277860919183,
+      "closure_error": 0.08316001820533149,
+      "intrinsic_reward": 0.2917422159117314
+    },
+    {
+      "experiment": "joint",
+      "seed": 3,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9957939175755625,
+      "half_ratio": 0.9957769621508014,
+      "antipode_error": 0.002385357454141611,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9988455472537874
+    },
+    {
+      "experiment": "frozen",
+      "seed": 3,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9985459986415072,
+      "half_ratio": 0.9985413204980208,
+      "antipode_error": 0.0006604119953323669,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998663032288814
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 3,
+      "L": 4,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6157952717230061,
+      "half_ratio": 0.20217055317952146,
+      "antipode_error": 0.1989881780358849,
+      "closure_error": 0.1861580535317429,
+      "intrinsic_reward": 0.2305641007769792
+    },
+    {
+      "experiment": "joint",
+      "seed": 3,
+      "L": 6,
+      "dominant_period": 11,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "11": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 1.005539627224563,
+      "half_ratio": 0.9139705610160874,
+      "antipode_error": 0.13180141973207685,
+      "closure_error": 0.26025280613100604,
+      "intrinsic_reward": 0.9981145077389093
+    },
+    {
+      "experiment": "frozen",
+      "seed": 3,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9992193867716286,
+      "half_ratio": 0.9992175400344747,
+      "antipode_error": 0.00035042007013012306,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999506197848311
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 3,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 0.9864864864864865,
+      "step_ratio": 0.8030799864093047,
+      "half_ratio": 0.14527017949683133,
+      "antipode_error": 0.20272963222618048,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.60042860016186
+    },
+    {
+      "experiment": "joint",
+      "seed": 3,
+      "L": 12,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.9886664999921175,
+      "half_ratio": 0.1793907225868642,
+      "antipode_error": 0.1109583863097036,
+      "closure_error": 0.1491537519397753,
+      "intrinsic_reward": 0.9751983989864401
+    },
+    {
+      "experiment": "frozen",
+      "seed": 3,
+      "L": 12,
+      "dominant_period": 24,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "24": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9998075876393868,
+      "half_ratio": 0.9998064402826211,
+      "antipode_error": 0.0001329630227615219,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9999495418386088
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 3,
+      "L": 12,
+      "dominant_period": 11,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "11": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6744914478040479,
+      "half_ratio": 0.08803880036685204,
+      "antipode_error": 0.06694157411207682,
+      "closure_error": 0.0818442637967773,
+      "intrinsic_reward": 0.2938567754568858
+    },
+    {
+      "experiment": "joint",
+      "seed": 4,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 0.9705284552845529,
+      "step_ratio": 0.9953674110925569,
+      "half_ratio": 0.9953343836812322,
+      "antipode_error": 0.0018417326611669985,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9986428354087663
+    },
+    {
+      "experiment": "frozen",
+      "seed": 4,
+      "L": 4,
+      "dominant_period": 8,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9986183821333521,
+      "half_ratio": 0.9986169004561688,
+      "antipode_error": 0.0005717637962589823,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998729201623912
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 4,
+      "L": 4,
+      "dominant_period": 11,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "11": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.54072875001963,
+      "half_ratio": 0.22604270170506954,
+      "antipode_error": 0.13007421613708897,
+      "closure_error": 0.1368786085503862,
+      "intrinsic_reward": 0.08223214006471892
+    },
+    {
+      "experiment": "joint",
+      "seed": 4,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 1.0005700455126911,
+      "half_ratio": 0.7957957948169523,
+      "antipode_error": 0.25896015973913655,
+      "closure_error": 0.4921794575030097,
+      "intrinsic_reward": 0.9979436480324405
+    },
+    {
+      "experiment": "frozen",
+      "seed": 4,
+      "L": 6,
+      "dominant_period": 12,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.9989072284440964,
+      "half_ratio": 0.99890509700938,
+      "antipode_error": 0.00042260928725201764,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998477459036692
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 4,
+      "L": 6,
+      "dominant_period": 10,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "10": 24
+      },
+      "rollout_recurrence": 0,
+      "step_ratio": 0.6938825102979236,
+      "half_ratio": 0.14330063352652536,
+      "antipode_error": 0.15182139375000067,
+      "closure_error": 0.10774592169522662,
+      "intrinsic_reward": 0.2344176883758912
+    },
+    {
+      "experiment": "joint",
+      "seed": 4,
+      "L": 12,
+      "dominant_period": 8,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "8": 24
+      },
+      "rollout_recurrence": 0.93,
+      "step_ratio": 0.9990896721282269,
+      "half_ratio": 0.3407619275184676,
+      "antipode_error": 0.0005867763636872074,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9993376392271652
+    },
+    {
+      "experiment": "frozen",
+      "seed": 4,
+      "L": 12,
+      "dominant_period": 24,
+      "cycle_match": 1.0,
+      "period_counts": {
+        "24": 24
+      },
+      "rollout_recurrence": 1,
+      "step_ratio": 0.999710699708946,
+      "half_ratio": 0.9997097759339385,
+      "antipode_error": 0.0001607620375061847,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.9998353188399721
+    },
+    {
+      "experiment": "fixed_random",
+      "seed": 4,
+      "L": 12,
+      "dominant_period": 12,
+      "cycle_match": 0.0,
+      "period_counts": {
+        "12": 24
+      },
+      "rollout_recurrence": 0.9766666666666667,
+      "step_ratio": 0.7787928078112862,
+      "half_ratio": 0.0,
+      "antipode_error": 0.12075193205002338,
+      "closure_error": 0.0,
+      "intrinsic_reward": 0.45009516166366703
+    }
+  ]
+}
